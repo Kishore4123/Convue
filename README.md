@@ -34,8 +34,7 @@ The system features a strict "domain-guard" protocol (System Instructions), ensu
 ```bash
 git clone [https://github.com/your-username/visa-helper-bot.git](https://github.com/your-username/visa-helper-bot.git)
 cd visa-helper-bot
-
-### 2. Configure Environment Variables
+ **2. Configure Environment Variables**
 Create a file named .env in the root directory to securely store your credentials. Add the following line:
 GEMINI_API_KEY=your_actual_api_key_here
 
