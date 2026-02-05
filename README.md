@@ -30,7 +30,7 @@ The system features a strict "domain-guard" protocol (System Instructions), ensu
 * Python 3.9 or higher installed.
 * A valid Google AI Studio API Key.
 
-### 1. Clone the Repository
+ Clone the Repository
 ```bash
 git clone [https://github.com/your-username/visa-helper-bot.git](https://github.com/your-username/visa-helper-bot.git)
 cd visa-helper-bot
@@ -38,17 +38,17 @@ cd visa-helper-bot
 Create a file named .env in the root directory to securely store your credentials. Add the following line:
 GEMINI_API_KEY=your_actual_api_key_here
 
-### 3. Install Dependencies
+ 3. Install Dependencies
 Install the required Python packages using pip:
 pip install fastapi uvicorn google-genai python-dotenv
 
-### 4. Launch the Application
+ 4. Launch the Application
 Start the backend server:
 python main.py
 
 The server will initialize at http://127.0.0.1:8000.
 
-### 5. Access the Interface
+ 5. Access the Interface
 Open the index.html file in any modern web browser to begin interacting with the agent.
 
 API Reference
